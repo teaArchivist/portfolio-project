@@ -66,6 +66,10 @@ margin: 20px 0 0;
   font-size: 14px;
 }
 
+.contact {
+  text-align: center;
+}
+
 .btn-connect {
 background: var(--connect-color);
 border-radius: 4px;
