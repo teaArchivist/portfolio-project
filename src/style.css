@@ -66,6 +66,7 @@ nav a:hover, nav li.active a {
   font-family: var(--heading-font-family);
   font-size: 20px;
   font-weight: bolder;
+
 }
 
 .hero {
@@ -160,28 +161,36 @@ padding: 15px 30px;
 
 
 footer {
-    margin: 60px 30px;
+    margin: 60px 0;
   }
 
+footer .container {
+  max-width: 1000px;
+}
 
 footer .contact-box {
 background-color: var(--primary-color);
 padding: 30px 120px;
 border-radius: 16px;
+
 }
 
 footer .contact-box p {
 margin: 0;
 } 
 
+footer p a {
+  text-decoration: none;
+  color: #272142;
+}
 footer .social-links a {
-  margin: 0 20px;
+  margin: 20px;
   color: var(--connect-color);
-  background-color: var(--primary-color);
-  padding: 10px 15px;
+  background-color: #ffff;
+  padding: 8px 16px;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 footer .social-links a:hover {
@@ -217,10 +226,11 @@ footer .social-links a:hover {
     padding: 0;
   }
   footer .contact-box {
-    padding: 30px;
+    padding: 24px;
     }
 
   footer .btn-connect {
-      padding: 10px 25px;
+      padding: 5px 10px;
+      font-size: 16px;
     }
 }
