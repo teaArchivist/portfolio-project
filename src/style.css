@@ -72,7 +72,7 @@ nav a:hover, nav li.active a {
 .hero {
   background-color: #E1F0E9;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -106,6 +106,11 @@ font-family: var(--default-font-family);
 margin: 20px 0 0;
 }
 
+.content h3 a{
+  text-decoration: none;
+  color: #272142;
+}
+
 .content p {
   font-size: 14px;
 }
@@ -127,6 +132,7 @@ padding: 15px 30px;
   background: #ffff;
   border-color: var(--primary-color);
   color:#6C63FF;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-learn {
@@ -136,6 +142,12 @@ border-radius: 4px;
 font-size: 18px;
 line-height: 27px;
 padding: 15px 30px;
+}
+
+.btn-learn:hover {
+  background: var(--connect-color);
+  color: #ffff;
+  transition: all 150ms ease-in-out;
 }
 
 .project-description {
@@ -190,12 +202,16 @@ footer .social-links a {
   padding: 8px 16px;
   border-radius: 50%;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 26px;
 }
 
 footer .social-links a:hover {
   color: var(--hover-color);
   transition: all 150ms ease-in-out;
+}
+
+.open-source {
+  font-size: 14px;
 }
 
 @media (max-width: 900px) {
