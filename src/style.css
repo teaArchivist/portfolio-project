@@ -140,6 +140,7 @@ padding: 15px 30px;
 .btn-connect:hover {
   background: #ffff;
   border-color: var(--primary-color);
+  border: 1px solid #6C63FF;
   color:#6C63FF;
   transition: all 150ms ease-in-out;
 }
@@ -164,8 +165,7 @@ padding: 15px 30px;
 }
 
 .profile-pic {
-  max-width: 480px;
-  max-height: 640px;
+ max-height: 550px;
   margin-left: 100px;
   
 }
@@ -194,6 +194,7 @@ footer p a {
   text-decoration: none;
   color: #272142;
 }
+
 footer .social-links a {
   margin: 20px;
   color: var(--connect-color);
