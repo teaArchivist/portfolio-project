@@ -33,7 +33,7 @@ p{
 }
 
 nav {
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 nav ul {
@@ -64,11 +64,8 @@ nav a:hover, nav li.active a {
 
 .nav-name {
   font-family: var(--heading-font-family);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bolder;
-  position: relative;
-  left: -400px;
-  top: 5px;
 }
 
 .hero {
