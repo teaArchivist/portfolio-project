@@ -32,6 +32,11 @@ p{
   line-height: 30px;
 }
 
+a{
+  text-decoration: none;
+  color: #272142;
+}
+
 nav {
   padding: 10px 0;
 }
@@ -164,10 +169,13 @@ padding: 15px 30px;
   padding: 120px 60px;
 }
 
+.project-images {
+  max-height: 575px;
+}
+
 .profile-pic {
- max-height: 550px;
-  margin-left: 100px;
-  
+max-height: 550px;
+margin-left: 100px;
 }
 
 
@@ -231,7 +239,7 @@ footer .social-links-contact-page a:hover {
 
 @media (max-width: 900px) {
   h1{
-    font-size: 50px;
+    font-size: 45px;
     line-height: 2;
   }
   h2{
@@ -256,6 +264,11 @@ footer .social-links-contact-page a:hover {
     text-align: center;
     padding: 0;
   }
+
+  .profile-pic {
+    margin-left: 0;
+    }
+
   footer .contact-box {
     padding: 24px;
     }
