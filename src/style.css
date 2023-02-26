@@ -12,13 +12,13 @@ body {
 
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 96px;
+  font-size: 90px;
   line-height: 1.5;
 }
 
 h2 {
   font-family: var(--heading-font-family);
-  font-size: 64px;
+  font-size: 63px;
 }
 
 h3 {
