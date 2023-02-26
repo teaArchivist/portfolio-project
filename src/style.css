@@ -260,6 +260,13 @@ footer .social-links-contact-page a:hover {
     padding: 24px;
     }
 
+  footer .social-links {
+    text-align: center;
+    margin: 0;
+  padding: 0;
+  font-size: 20px;
+  }
+
   footer .btn-connect {
       padding: 5px 10px;
       font-size: 16px;
