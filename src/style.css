@@ -270,6 +270,7 @@ footer .social-links-contact-page a:hover {
     }
 
   footer .contact-box {
+    justify-content: center;
     padding: 24px;
     }
 
